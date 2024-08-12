@@ -1,0 +1,33 @@
+# Exclude common editor and system files
+.git
+.vscode
+.idea
+
+# Exclude Python bytecode files
+*.pyc
+
+# Exclude virtual environment files (if using virtualenv or venv)
+.env
+.env.*
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Exclude development and testing files
+*.log
+*.sql
+
+# Exclude local configuration files
+instance/
+config/
+
+# Exclude Docker-related files
+Dockerfile
+.dockerignore
+
+# Exclude version control files
+.dockerignore
+.gitignore
